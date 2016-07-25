@@ -19,6 +19,6 @@
     "node-sass-middleware": "^0.9.8",
     "path": "^0.12.7",
     "request": "^2.72.0",
-    "semantic-ui": "^2.1.8"
+    "semantic-ui": "2.1.8"
   }
 }

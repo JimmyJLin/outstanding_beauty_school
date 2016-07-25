@@ -14,32 +14,38 @@ $transparent_color: transparent;
 
 
 
+// Header Main Nav Bar Component
+@import "header/main_navbar";
 
+// Main Body Component
+@import "body/main_body";
 
+// Main Footer Component
+@import "footer/main_footer";
 
 // Mobile & Tablet @media imports
 
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  @import "mobile_4";
+  @import "mobile_tablets/mobile_4";
 }
 
 // iPhone 5 & 5S
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  @import "mobile_5";
+  @import "mobile_tablets/mobile_5";
 }
 
 // iPhone 6 & 6S
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  @import "mobile_6";
+  @import "mobile_tablets/mobile_6";
 }
 
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  @import "mobile_6plus";
+  @import "mobile_tablets/mobile_6plus";
 }
 
 // Tablets
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  @import "tablet";
+  @import "mobile_tablets/tablet";
 }

@@ -39,8 +39,22 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 /* Routes */
-// app.use('/services', serviceRoutes)
-
 app.get('/', function(req, res){
   res.render('pages/index')
+})
+
+app.get('/faq', function(req, res){
+  res.render('pages/faq')
+})
+
+app.get('/programs', function(req, res){
+  res.render('pages/programs')
+})
+
+app.get('/request', function(req, res){
+  res.render('pages/request')
+})
+
+app.get('/why', function(req, res){
+  res.render('pages/why')
 })

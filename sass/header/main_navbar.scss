@@ -1,0 +1,24 @@
+
+
+$mainNavBar_color_main: #666666;
+$mainNavBar_color_2: orange;
+
+
+.mainNavBar{
+
+  a {
+    color: $mainNavBar_color_main !important;
+
+  }
+
+  #reqeustInfo{
+    color: $mainNavBar_color_2 !important;
+  }
+
+  #topFixedMenu{
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+
+
+}

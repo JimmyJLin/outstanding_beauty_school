@@ -14,10 +14,35 @@
 
   <!-- Main Body -->
   <div id="body" class="mainBody">
-    <h3>School Programs</h3>
+
+    <!-- breadcrumb -->
+    <div id="breadcrumb" class="ui breadcrumb">
+      <a class="section" href="/">Home</a>
+      <div class="divider"> / </div>
+      <div class="active section">Programs</div>
+    </div>
+
+    <!-- programs section -->
+    <div id="programs">
+
+      <div>
+        <img id="program_title_image" src="images/programs/studentprograms.jpg" alt="">
+      </div>
+
+      <!-- Student Programs -->
+      <%- include ../partials/programs/student_programs %>
+
+      <!-- Student Menus -->
+      <%- include ../partials/programs/student_menu %>
+
+    </div>
+
+    <!-- Request Information -->
+    <%- include ../partials/body/request_info %>
   </div>
 
-  <!-- Fotter -->
+
+  <!-- Footer -->
   <div class="mainFooter">
     <%- include ../partials/footer/main_footer %>
   </div>

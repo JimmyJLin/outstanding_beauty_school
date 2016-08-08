@@ -1,4 +1,8 @@
 $request_info_background_color: #f2f2f2;
+$breadcrum_color: #727272;
+$student_programs_background_color: #f3f2f2;
+$student_programs_font_color: #99a500;
+
 
 .mainBody{
 
@@ -9,6 +13,87 @@ $request_info_background_color: #f2f2f2;
     padding-bottom: 50px;
   }
 
+  #breadcrumb{
+    padding-top: 70px;
+    padding-bottom: 35px;
+    color: $breadcrum_color;
+
+    .active.section{
+      font-weight: 500;
+    }
+
+    a{
+      color: $breadcrum_color;
+
+    }
+  }
+
+  #programs{
+
+    #program_title_image{
+      background-position: 50% 50%;
+      box-sizing: border-box;
+      color: rgb(114, 114, 114);
+      height: 375px;
+      min-height: 375px;
+      width: 1082px;
+      column-rule-color: rgb(114, 114, 114);
+      perspective-origin: 541px 187.5px;
+      transform-origin: 541px 187.5px;
+      border: 0px none rgb(114, 114, 114);
+      font: normal normal normal normal 16px / 24px metanormal_roman, Arial, "Times New Roman", serif;
+      margin: 0px 0px 20px;
+      outline: rgb(114, 114, 114) none 0px;
+    }
+
+    #student_programs{
+      background-color: $student_programs_background_color;
+      margin: 0 25px;
+      padding: 50px 0;
+      margin-bottom: 50px;
+
+      #student_programs_contents{
+        padding: 0 25px;
+
+        h3 {
+          color: $student_programs_font_color;
+          font-weight: 700;
+          font-size: 1.2rem;
+        }
+
+        p{
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 1.6;
+        }
+      }
+
+    }
+
+    #student_menu{
+
+      background-color: $student_programs_background_color;
+      margin: 0 25px;
+      padding: 50px 0;
+      margin-bottom: 50px;
+
+      h3 {
+        color: $student_programs_font_color;
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+
+      .ui.grid{
+        padding: 0 50px;
+      }
+
+
+    }
+
+
+  }
+
   .request_info{
     background-color: $request_info_background_color;
     padding-top: 60px;
@@ -17,6 +102,12 @@ $request_info_background_color: #f2f2f2;
 
     #request_info_form{
       padding-top: 25px;
+    }
+
+    h3 {
+      color: $student_programs_font_color;
+      font-weight: 700;
+      font-size: 1.6rem;
     }
   }
 

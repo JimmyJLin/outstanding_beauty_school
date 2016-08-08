@@ -1,8 +1,27 @@
-
+$request_info_background_color: #f2f2f2;
 
 .mainBody{
 
   padding-top: 50px;
+  margin-bottom: 50px;
 
+  #card_menu{
+    padding-bottom: 50px;
+  }
+
+  .request_info{
+    background-color: $request_info_background_color;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    #request_info_form{
+      padding-top: 25px;
+    }
+  }
+
+  #submit_button{
+    margin-bottom: 25px;
+  }
 
 }

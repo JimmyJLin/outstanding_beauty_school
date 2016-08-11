@@ -29,23 +29,24 @@ $student_programs_font_color: #99a500;
     }
   }
 
+  #title_image{
+    background-position: 50% 50%;
+    box-sizing: border-box;
+    color: rgb(114, 114, 114);
+    height: 375px;
+    min-height: 375px;
+    width: 100%;
+    column-rule-color: rgb(114, 114, 114);
+    perspective-origin: 541px 187.5px;
+    transform-origin: 541px 187.5px;
+    border: 0px none rgb(114, 114, 114);
+    font: normal normal normal normal 16px / 24px metanormal_roman, Arial, "Times New Roman", serif;
+    margin: 0px 0px 20px;
+    outline: rgb(114, 114, 114) none 0px;
+  }
+
   #programs{
 
-    #program_title_image{
-      background-position: 50% 50%;
-      box-sizing: border-box;
-      color: rgb(114, 114, 114);
-      height: 375px;
-      min-height: 375px;
-      width: 1082px;
-      column-rule-color: rgb(114, 114, 114);
-      perspective-origin: 541px 187.5px;
-      transform-origin: 541px 187.5px;
-      border: 0px none rgb(114, 114, 114);
-      font: normal normal normal normal 16px / 24px metanormal_roman, Arial, "Times New Roman", serif;
-      margin: 0px 0px 20px;
-      outline: rgb(114, 114, 114) none 0px;
-    }
 
     #student_programs{
       background-color: $student_programs_background_color;
@@ -94,6 +95,49 @@ $student_programs_font_color: #99a500;
 
 
   }
+
+
+  #why{
+    margin: 50px 35px;
+
+    h3 {
+      color: $student_programs_font_color;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+
+    p{
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .eleven.wide.column{
+      padding-left: 0rem;
+    }
+
+    .four.wide.column{
+      padding-right: 0rem;
+    }
+
+    .ui.grid{
+      padding: 0 15px;
+
+      .why_main_menus, .sixteen, .four{
+        padding: 15px 15px;
+        margin: 15px;
+        background-color: $student_programs_background_color;
+      }
+      .img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
+
+  }
+
+
 
   .request_info{
     background-color: $request_info_background_color;

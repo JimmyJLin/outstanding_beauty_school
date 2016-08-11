@@ -14,7 +14,30 @@
 
   <!-- Main Body -->
   <div id="body" class="mainBody">
-    <h3>Why Outstanding!</h3>
+
+    <!-- breadcrumb -->
+    <div id="breadcrumb" class="ui breadcrumb">
+      <a class="section" href="/">Home</a>
+      <div class="divider"> / </div>
+      <div class="active section">Why Outstanding</div>
+    </div>
+
+    <div>
+      <img id="title_image" src="images/why/why.jpg" alt="">
+    </div>
+
+    <!-- Why page content -->
+    <div id="why">
+
+      <!-- Why page partial -->
+      <%- include ../partials/why/why %>
+
+    </div>
+
+
+
+    <!-- Request Information -->
+    <%- include ../partials/body/request_info %>
   </div>
 
   <!-- Fotter -->

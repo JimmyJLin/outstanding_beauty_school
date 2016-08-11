@@ -14,7 +14,23 @@
 
   <!-- Main Body -->
   <div id="body" class="mainBody">
-    <h3>FAQs</h3>
+
+    <!-- breadcrumb -->
+    <div id="breadcrumb" class="ui breadcrumb">
+      <a class="section" href="/">Home</a>
+      <div class="divider"> / </div>
+      <div class="active section">FAQ</div>
+    </div>
+
+    <div id="faq">
+
+      <!-- FAQ page partial -->
+      <%- include ../partials/faq/faq %>
+
+    </div>
+
+    <!-- Request Information -->
+    <%- include ../partials/body/request_info %>
   </div>
 
   <!-- Fotter -->

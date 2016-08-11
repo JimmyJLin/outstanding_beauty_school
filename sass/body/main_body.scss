@@ -137,6 +137,83 @@ $student_programs_font_color: #99a500;
 
   }
 
+  #faq{
+
+    .ui.grid{
+      padding-bottom: 50px;
+
+      h3 {
+        color: $student_programs_font_color;
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+
+      p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+
+      strong{
+        color: #519296;
+      }
+
+      .menu_items{
+        padding-bottom: 25px;
+      }
+
+      .four.wide.column{
+        margin-left: 35px;
+        padding-left: 1rem;
+        background-color: $student_programs_background_color;
+
+      }
+
+      .ten.wide.column{
+        margin: 0 35px;
+        padding-right: 1rem;
+        background-color: $student_programs_background_color;
+
+      }
+
+    }
+
+  }
+
+  #contact{
+
+    .ui.grid{
+
+      h3 {
+        color: $student_programs_font_color;
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+
+      p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+
+      .four.wide.column{
+        margin-left: 35px;
+        padding-left: 1rem;
+        background-color: $student_programs_background_color;
+
+      }
+
+      .ten.wide.column{
+        margin: 0 35px;
+        padding-right: 1rem;
+        background-color: $student_programs_background_color;
+
+      }
+
+    }
+
+  }
+
 
 
   .request_info{

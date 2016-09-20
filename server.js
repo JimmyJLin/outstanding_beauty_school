@@ -58,3 +58,15 @@ app.get('/request', function(req, res){
 app.get('/why', function(req, res){
   res.render('pages/why')
 })
+
+app.get('/employment', function(req, res){
+  res.render('pages/employment')
+})
+
+app.get('/privacy', function(req, res){
+  res.render('pages/privacy')
+})
+
+app.get('/terms', function(req, res){
+  res.render('pages/terms')
+})

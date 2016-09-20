@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Head partial -->
+  <%- include ../partials/head %>
+
+</head>
+<body>
+  <!-- Main Nav Bar -->
+  <div class="mainNavBar">
+    <%- include ../partials/navbars/main_nav %>
+  </div>
+
+  <!-- Main Body -->
+  <div id="body" class="mainBody">
+
+    <!-- breadcrumb -->
+    <div id="breadcrumb" class="ui breadcrumb">
+      <a class="section" href="/">Home</a>
+      <div class="divider"> / </div>
+      <div class="active section">Terms and Conditions</div>
+    </div>
+
+    <div id="terms">
+
+      <!-- FAQ page partial -->
+      <%- include ../partials/termsandcondition/termsandcondition %>
+
+    </div>
+
+    <!-- Request Information -->
+    <%- include ../partials/body/request_info %>
+  </div>
+
+  <!-- Fotter -->
+  <div class="mainFooter">
+    <%- include ../partials/footer/main_footer %>
+  </div>
+
+</body>
+</html>

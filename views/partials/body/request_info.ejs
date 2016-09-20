@@ -6,34 +6,34 @@
     <p>Ready to take the next step? Request More Information Today!</p>
   </div>
 
-  <div id="request_info_form" class="ui equal width form">
+  <form id="request_info_form" class="ui equal width form" method="post">
 
     <div class="fields">
       <div class="field">
         <label>First Name *</label>
-        <input type="text">
+        <input id="firstName" type="text" name="firstName">
       </div>
 
       <div class="field">
         <label>Last Name *</label>
-        <input type="text">
+        <input id="lastName" type="text" name="lastName">
       </div>
 
       <div class="field">
         <label>Email *</label>
-        <input type="text">
+        <input id="email" type="text" name="email">
       </div>
 
       <div class="field">
         <label>Phone *</label>
-        <input type="text">
+        <input id="phone" type="text"  name="phone">
       </div>
     </div>
 
     <div class="fields">
       <div class="field">
         <label>Desired School: *</label>
-        <select>
+        <select id="school">
           <option value="">None</option>
           <option value="COSMETOLOGY SCHOOL">COSMETOLOGY SCHOOL </option>
           <option value="ESTHIOLOGY SCHOOL">ESTHIOLOGY SCHOOL</option>
@@ -43,7 +43,7 @@
       </div>
       <div class="field">
         <label>Programs: *</label>
-        <select>
+        <select id="program">
           <option value="">None</option>
           <option value="COSMETOLOGY">COSMETOLOGY</option>
           <option value="ESTHIOLOGY">ESTHIOLOGY</option>
@@ -54,8 +54,8 @@
     </div>
     <p>By clicking the SUBMIT button as my official signature, I expressly consent to Oustanding Training Center representatives contacting me via telephone, text, email or prerecorded message using automated telephone technology regarding Oustanding Training Center programs, events and announcements. I understand that consent is not required to purchase goods or services from Oustanding Training Center and that I may withdraw my consent at any time by contacting the Oustanding Training Center I requested information from.</p>
 
-    <div id="submit_button" class="ui submit button">Submit</div>
-  </div>
+    <div id="submit_button" class="ui submit button" type="submit">Submit</div>
+  </form>
 
 
 

@@ -1,7 +1,7 @@
-$request_info_background_color: #f2f2f2;
-$breadcrum_color: #727272;
-$student_programs_background_color: #f3f2f2;
-$student_programs_font_color: #99a500;
+$primary_background_color: #f2f2f2;
+$font_color: #727272;
+$container_background_color: #f3f2f2;
+$primary_title_font_color: #99a500;
 
 
 .mainBody{
@@ -17,14 +17,14 @@ $student_programs_font_color: #99a500;
     margin-left: 25px;
     padding-top: 70px;
     padding-bottom: 35px;
-    color: $breadcrum_color;
+    color: $font_color;
 
     .active.section{
       font-weight: 500;
     }
 
     a{
-      color: $breadcrum_color;
+      color: $font_color;
 
     }
   }
@@ -49,7 +49,7 @@ $student_programs_font_color: #99a500;
 
 
     #student_programs{
-      background-color: $student_programs_background_color;
+      background-color: $container_background_color;
       margin: 0 25px;
       padding: 50px 0;
       margin-bottom: 50px;
@@ -58,7 +58,7 @@ $student_programs_font_color: #99a500;
         padding: 0 25px;
 
         h3 {
-          color: $student_programs_font_color;
+          color: $primary_title_font_color;
           font-weight: 700;
           font-size: 1.2rem;
         }
@@ -74,13 +74,13 @@ $student_programs_font_color: #99a500;
 
     #student_menu{
 
-      background-color: $student_programs_background_color;
+      background-color: $container_background_color;
       margin: 0 25px;
       padding: 50px 0;
       margin-bottom: 50px;
 
       h3 {
-        color: $student_programs_font_color;
+        color: $primary_title_font_color;
         font-weight: 700;
         font-size: 1.2rem;
         text-align: center;
@@ -101,7 +101,7 @@ $student_programs_font_color: #99a500;
     margin: 50px 35px;
 
     h3 {
-      color: $student_programs_font_color;
+      color: $primary_title_font_color;
       font-weight: 700;
       font-size: 1.2rem;
     }
@@ -126,7 +126,7 @@ $student_programs_font_color: #99a500;
       .why_main_menus, .sixteen, .four{
         padding: 15px 15px;
         margin: 15px;
-        background-color: $student_programs_background_color;
+        background-color: $container_background_color;
       }
       .img{
         width: 100%;
@@ -143,7 +143,7 @@ $student_programs_font_color: #99a500;
       padding-bottom: 50px;
 
       h3 {
-        color: $student_programs_font_color;
+        color: $primary_title_font_color;
         font-weight: 700;
         font-size: 1.2rem;
       }
@@ -165,14 +165,14 @@ $student_programs_font_color: #99a500;
       .four.wide.column{
         margin-left: 35px;
         padding-left: 1rem;
-        background-color: $student_programs_background_color;
+        background-color: $container_background_color;
 
       }
 
       .ten.wide.column{
         margin: 0 35px;
         padding-right: 1rem;
-        background-color: $student_programs_background_color;
+        background-color: $container_background_color;
 
       }
 
@@ -185,7 +185,7 @@ $student_programs_font_color: #99a500;
     .ui.grid{
 
       h3 {
-        color: $student_programs_font_color;
+        color: $primary_title_font_color;
         font-weight: 700;
         font-size: 1.2rem;
       }
@@ -199,14 +199,14 @@ $student_programs_font_color: #99a500;
       .four.wide.column{
         margin-left: 35px;
         padding-left: 1rem;
-        background-color: $student_programs_background_color;
+        background-color: $container_background_color;
 
       }
 
       .ten.wide.column{
         margin: 0 35px;
         padding-right: 1rem;
-        background-color: $student_programs_background_color;
+        background-color: $container_background_color;
 
       }
 
@@ -217,7 +217,7 @@ $student_programs_font_color: #99a500;
 
 
   .request_info{
-    background-color: $request_info_background_color;
+    background-color: $primary_background_color;
     padding-top: 60px;
     padding-left: 50px;
     padding-right: 50px;
@@ -227,7 +227,7 @@ $student_programs_font_color: #99a500;
     }
 
     h3 {
-      color: $student_programs_font_color;
+      color: $primary_title_font_color;
       font-weight: 700;
       font-size: 1.6rem;
     }
@@ -236,5 +236,50 @@ $student_programs_font_color: #99a500;
   #submit_button{
     margin-bottom: 25px;
   }
+
+
+  #privacy{
+
+    padding-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    #privacy_contents{
+      background-color: $primary_background_color;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: $font_color;
+
+      h3 {
+        color: $primary_title_font_color;
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+
+      p{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+
+      ul{
+        li{
+          color: rgb(81, 146, 150);
+          margin-right: 6px;
+          font-size: 14px;
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+
+
 
 }
